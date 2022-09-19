@@ -1,9 +1,8 @@
 package object1;
 
 public class Karyawan {
-
-    private String nik, bagian;
     //Deskripsi Atribut
+    private String nik, bagian;
     private int kehadiran, gaji_per_hari, totalGaji;
     
     //Setter
@@ -21,9 +20,6 @@ public class Karyawan {
     }
     public void setTotalGaji(int totalGaji){
         this.totalGaji = totalGaji;
-    }
-    public static void main(String[] args) {
-        // TODO code application logic here
     }
     
     //getter

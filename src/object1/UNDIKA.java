@@ -1,6 +1,6 @@
 package object1;
 public class UNDIKA {
-    //atribut
+    //Deskripsi atribut
     private String nama,alamat;
     
     //setter

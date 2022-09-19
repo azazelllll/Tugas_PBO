@@ -1,10 +1,9 @@
 package object1;
 public class Mahasiswa {
-    //atribut
-    int angka;
+    //Deskripsi atribut
     private String nim, prodi;
     private int spp, angkatan, semester, bayar_spp_semester;
-    
+ 
     //setter
     public void setNIM(String nim){
         this.nim = nim;
@@ -40,11 +39,11 @@ public class Mahasiswa {
     }
     public int getSPP(){
         if(getAngkatan() > 17){
-            angka = 15000000;
+            spp = 15000000;
         }else{
-            angka = 12000000;
+            spp = 12000000;
         }
-        return angka * getSemester();
+        return spp * getSemester();
     }
     public int getBayar_spp_semester(){
         bayar_spp_semester = getSPP();
